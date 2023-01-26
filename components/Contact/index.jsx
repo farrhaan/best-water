@@ -3,7 +3,7 @@ import ProfileCard from "./ProfileCard";
 
 export default function Contact() {
   return (
-    <div className='mt-[-180px]'>
+    <div className='mt-[-180px] mb-10'>
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
         <path
           fill='#379eff'
