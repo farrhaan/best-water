@@ -26,7 +26,7 @@ const products = [
 
 export default function Products() {
   return (
-    <div className="bg-primaryColor">
+    <div className="bg-primaryColor pb-28">
       <p className='text-5xl font-bold text-center text-white py-20'>
         Products
       </p>
