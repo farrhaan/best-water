@@ -15,38 +15,38 @@ export default function NavBar() {
           <ul className='flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0'>
             <li>
               <a
-                href='#'
+                href='#about'
                 className='block py-2 pl-3 pr-4 text-white bg-secondaryColor rounded md:bg-transparent md:text-secondaryColor md:p-0 '
                 aria-current='page'>
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-secondaryColor md:p-0'>
                 About
               </a>
             </li>
             <li>
               <a
-                href='#'
+                href='#water-composition'
                 className='block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-secondaryColor md:p-0'>
-                Services
+                Composition
               </a>
             </li>
             <li>
               <a
-                href='#'
+                href='#products'
                 className='block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-secondaryColor md:p-0'>
-                Pricing
+                Products
               </a>
             </li>
             <li>
               <a
-                href='#'
+                href='#contact-us'
                 className='block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-secondaryColor md:p-0'>
                 Contact
+              </a>
+            </li>
+            <li>
+              <a
+                href='#location'
+                className='block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-500 md:hover:bg-transparent md:border-0 md:hover:text-secondaryColor md:p-0'>
+                Location
               </a>
             </li>
           </ul>

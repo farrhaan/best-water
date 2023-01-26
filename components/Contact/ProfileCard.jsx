@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProfileCard(data) {
   return (
-    <div className='w-full mx-auto py-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+    <div className='w-full mx-auto py-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 animate__animated animate__fadeIn'>
       <div className='flex flex-col items-center py-4 '>
         <img
           className='w-24 h-24 mb-3 rounded-full shadow-lg invert'

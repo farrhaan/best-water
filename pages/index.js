@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import HeadSection from '../components/HeadSection'
 import Products from '../components/Products'
 import WaterComposition from '../components/WaterComposition'
+import 'animate.css';
 
 export default function Home() {
   return (

@@ -26,8 +26,8 @@ const products = [
 
 export default function Products() {
   return (
-    <div className="bg-primaryColor pb-28">
-      <p className='text-5xl font-bold text-center text-white py-20'>
+    <div className="bg-primaryColor pb-28" id="products">
+      <p className='text-5xl font-bold text-center text-white py-20 animate__animated animate__fadeInUp'>
         Products
       </p>
       <div className=" flex flex-wrap gap-14 mx-auto justify-center pb-32">

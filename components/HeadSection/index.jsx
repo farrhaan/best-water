@@ -8,7 +8,7 @@ export default function HeadSection() {
       <NavBar />
       <div>
         <div className='h-[590px] flex flex-col-reverse md:flex-row justify-evenly items-center md:mb-[-50px]'>
-          <p className='text-5xl font-bold max-w-[45%] leading-tight'>
+          <p className='text-5xl font-bold max-w-[45%] leading-tight animate__animated animate__fadeInUp'>
             Always want safe and good water for{" "}
             <span className='text-secondaryColor'>Healthy Life.</span>
           </p>

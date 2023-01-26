@@ -10,15 +10,17 @@ export default function Contact() {
           fill-opacity='1'
           d='M0,128L48,133.3C96,139,192,149,288,154.7C384,160,480,160,576,138.7C672,117,768,75,864,90.7C960,107,1056,181,1152,202.7C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'></path>
       </svg>
-      <p className='text-5xl font-bold text-center text-white mt-[-50px] mb-10'>
+      <p
+        className='text-5xl font-bold text-center text-white mt-[-50px] mb-10 animate__animated animate__fadeInUp'
+        id='contact-us'>
         Contact Us
       </p>
       <div className='flex flex-wrap my-10 border-b-2 mx-24 pb-10'>
         <ProfileCard name='Zahid Islam' title='CEO' phone='+923348606600' />
         <ProfileCard name='Best Water' title='Office' phone='+92412551516' />
       </div>
-      <div className="py-10">
-        <p className='text-5xl font-bold text-center text-white mt-[-50px] mb-10'>
+      <div className='py-10' id='location'>
+        <p className='text-5xl font-bold text-center text-white mt-[-50px] mb-10 animate__animated animate__fadeInUp'>
           Location
         </p>
         <iframe
@@ -26,7 +28,7 @@ export default function Contact() {
           width='400'
           height='300'
           // style='border:0;'
-          className="mx-auto w-full px-20"
+          className='mx-auto w-full px-20'
           allowfullscreen=''
           loading='lazy'
           referrerpolicy='no-referrer-when-downgrade'></iframe>
