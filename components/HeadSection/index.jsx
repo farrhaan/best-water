@@ -5,14 +5,6 @@ import NavBar from "../NavBar";
 export default function HeadSection() {
   return (
     <div className='bg-backGroundColor min-h-screen'>
-      {/* established 2003
-        contact 0334 8606600 - 041 2551516
-        ceo mian zahid islam
-        products - 19l, 6l, 1500ml, 600ml, 
-        PPSQCA - licence
-        PFA - licence
-        Address */}
-
       <NavBar />
       <div>
         <div className='h-[590px] flex flex-col-reverse md:flex-row justify-evenly items-center md:mb-[-50px]'>

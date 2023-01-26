@@ -38,8 +38,8 @@ export default function Certified() {
       <p className='text-5xl font-bold text-center text-white'>
         Pure Drinking Water
       </p>
-      <p className='px-20 my-10 mx-auto text-white text-lg text-center'>
-        Best Water is extracted from deep underground source and purified
+      <p className='px-48 my-10 mx-auto text-white text-lg text-center'>
+        Established in 2003, Best Water is a trusted name in the drinking water industry. Best Water is extracted from deep underground source and purified
         through latest reverse Osmosis technology.
       </p>
       <div className='flex justify-evenly mt-10 mb-20'>

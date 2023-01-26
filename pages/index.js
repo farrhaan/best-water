@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Certified from '../components/Certified'
+import Contact from '../components/Contact'
 import HeadSection from '../components/HeadSection'
+import Products from '../components/Products'
 import WaterComposition from '../components/WaterComposition'
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <HeadSection />
       <Certified/>
       <WaterComposition/>
+      <Products/>
+      <Contact/>
     </div>
   )
 }

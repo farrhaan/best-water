@@ -27,6 +27,12 @@ a {
   animation: shimmy 3s infinite; 
   @apply mt-16 md:mt-[-100px];
 }
+
+.animatedMinerals{
+  max-height: 500px;
+  position: relative;
+  animation: shimmy 3s infinite; 
+}
 @keyframes shimmy {
   0% {
     transform: translateY(0px);    
