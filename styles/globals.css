@@ -1,9 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    @apply text-primaryColor bg-secondaryColor;
 }
 
 a {
@@ -15,12 +20,21 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+
+.animatedImage{
+  max-height: 500px;
+  position: relative;
+  animation: shimmy 3s infinite; 
+  @apply mt-16 md:mt-[-100px];
+}
+@keyframes shimmy {
+  0% {
+    transform: translateY(0px);    
   }
-  body {
-    color: white;
-    background: black;
+  50% {
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0px);
   }
 }
