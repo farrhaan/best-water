@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
 
 import NavBar from "../NavBar";
 
@@ -17,12 +16,10 @@ export default function HeadSection() {
       <NavBar />
       <div>
         <div className='h-[590px] flex flex-col-reverse md:flex-row justify-evenly items-center md:mb-[-50px]'>
-        <Fade bottom>
           <p className='text-5xl font-bold max-w-[45%] leading-tight'>
             Always want safe and good water for{" "}
             <span className='text-secondaryColor'>Healthy Life.</span>
           </p>
-          </Fade>
           <img className='animatedImage' src='/images/waterGlass.png'></img>
         </div>
         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>

@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 
 import CertCard from "./CertCard";
 
@@ -36,24 +35,21 @@ const approvedBy = [
 export default function Certified() {
   return (
     <div className='mb-16'>
-      <Fade bottom>
-        <p className='text-5xl font-bold text-center text-white'>
-          Pure Drinking Water
-        </p>
-      </Fade>
-      <Fade bottom>
-        <p className="px-20 my-10 mx-auto text-white text-lg text-center">Best Water is extracted from deep underground source and purified through latest reverse Osmosis technology.</p>
-      </Fade>
+      <p className='text-5xl font-bold text-center text-white'>
+        Pure Drinking Water
+      </p>
+      <p className='px-20 my-10 mx-auto text-white text-lg text-center'>
+        Best Water is extracted from deep underground source and purified
+        through latest reverse Osmosis technology.
+      </p>
       <div className='flex justify-evenly mt-10 mb-20'>
         {cardsData.map((item, i) => {
           return <CertCard key={i} item={item} />;
         })}
       </div>
-      <Fade bottom>
-        <p className='text-5xl font-bold text-center text-white border-t-2 mx-20 pt-10'>
-          Approved By
-        </p>
-      </Fade>
+      <p className='text-5xl font-bold text-center text-white border-t-2 mx-20 pt-10'>
+        Approved By
+      </p>
       <div className='flex justify-evenly my-20'>
         {approvedBy.map((item, i) => {
           return <CertCard key={i} item={item} approved />;
