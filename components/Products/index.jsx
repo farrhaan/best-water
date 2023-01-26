@@ -30,7 +30,7 @@ export default function Products() {
       <p className='text-5xl font-bold text-center text-white py-20 animate__animated animate__fadeInUp'>
         Products
       </p>
-      <div className=" flex flex-wrap gap-14 mx-auto justify-center pb-32">
+      <div className=" flex flex-wrap gap-14 mx-auto justify-center pb-14 md:pb-32">
         {products?.map((item, i) => {
           return (
             <div key={i}>

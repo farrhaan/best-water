@@ -8,11 +8,11 @@ export default function HeadSection() {
       <NavBar />
       <div>
         <div className='h-[590px] flex flex-col-reverse md:flex-row justify-evenly items-center md:mb-[-50px]'>
-          <p className='text-5xl font-bold max-w-[45%] leading-tight animate__animated animate__fadeInUp'>
+          <p className='text-3xl md:text-5xl font-bold max-w-[80%] md:max-w-[45%] leading-tight animate__animated animate__fadeInUp'>
             Always want safe and good water for{" "}
             <span className='text-secondaryColor'>Healthy Life.</span>
           </p>
-          <img className='animatedImage' src='/images/waterGlass.png'></img>
+          <img className='animatedImage max-h-96 md:max-h-[500px]' src='/images/waterGlass.png'></img>
         </div>
         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
           <path

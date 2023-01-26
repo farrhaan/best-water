@@ -23,10 +23,9 @@ a {
 
 
 .animatedImage{
-  max-height: 500px;
   position: relative;
   animation: shimmy 3s infinite; 
-  @apply mt-16 md:mt-[-100px];
+  @apply mt-[-40px] md:mt-[-100px];
 }
 
 .animatedMinerals{
